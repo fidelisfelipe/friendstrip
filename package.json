@@ -1,7 +1,10 @@
 {
   "name": "friendstrip",
   "version": "0.0.0",
-  "dependencies": {},
+  "dependencies": {
+    "bower": "^1.4.1",
+    "grunt": "^0.4.5"
+  },
   "repository": {},
   "devDependencies": {
     "grunt": "^0.4.5",
@@ -39,6 +42,7 @@
   },
   "scripts": {
     "test": "grunt test",
-	"start": "grunt serve"
+    "start": "grunt serve",
+	"postinstall": "bash ./post_install.sh"
   }
 }
