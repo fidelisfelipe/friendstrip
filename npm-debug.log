@@ -1,0 +1,248 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@2.7.4
+3 info using node@v0.12.2
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 warn package.json Dependency 'grunt' exists in both dependencies and devDependencies, using 'grunt@^0.4.5' from dependencies
+6 verbose install where, deps [ 'D:\\workspacefriendstrip\\friendstrip',
+6 verbose install   [ 'bower',
+6 verbose install     'grunt',
+6 verbose install     'grunt-autoprefixer',
+6 verbose install     'grunt-concurrent',
+6 verbose install     'grunt-contrib-clean',
+6 verbose install     'grunt-contrib-concat',
+6 verbose install     'grunt-contrib-connect',
+6 verbose install     'grunt-contrib-copy',
+6 verbose install     'grunt-contrib-cssmin',
+6 verbose install     'grunt-contrib-htmlmin',
+6 verbose install     'grunt-contrib-imagemin',
+6 verbose install     'grunt-contrib-jshint',
+6 verbose install     'grunt-contrib-uglify',
+6 verbose install     'grunt-contrib-watch',
+6 verbose install     'grunt-file-creator',
+6 verbose install     'grunt-filerev',
+6 verbose install     'grunt-google-cdn',
+6 verbose install     'grunt-karma',
+6 verbose install     'grunt-mkdir',
+6 verbose install     'grunt-newer',
+6 verbose install     'grunt-ng-annotate',
+6 verbose install     'grunt-shell',
+6 verbose install     'grunt-svgmin',
+6 verbose install     'grunt-usemin',
+6 verbose install     'grunt-wiredep',
+6 verbose install     'jshint-stylish',
+6 verbose install     'karma-jasmine',
+6 verbose install     'karma-phantomjs-launcher',
+6 verbose install     'load-grunt-tasks',
+6 verbose install     'time-grunt' ] ]
+7 verbose install where, peers [ 'D:\\workspacefriendstrip\\friendstrip', [] ]
+8 info preinstall friendstrip@0.0.0
+9 verbose already installed skipping grunt-usemin@^2.6.2 D:\workspacefriendstrip\friendstrip
+10 verbose already installed skipping grunt-wiredep@^2.0.0 D:\workspacefriendstrip\friendstrip
+11 verbose already installed skipping jshint-stylish@^1.0.0 D:\workspacefriendstrip\friendstrip
+12 verbose already installed skipping karma-jasmine@* D:\workspacefriendstrip\friendstrip
+13 verbose already installed skipping karma-phantomjs-launcher@* D:\workspacefriendstrip\friendstrip
+14 verbose already installed skipping load-grunt-tasks@^1.0.0 D:\workspacefriendstrip\friendstrip
+15 verbose already installed skipping time-grunt@^1.0.0 D:\workspacefriendstrip\friendstrip
+16 verbose already installed skipping bower@^1.4.1 D:\workspacefriendstrip\friendstrip
+17 verbose already installed skipping grunt@^0.4.5 D:\workspacefriendstrip\friendstrip
+18 verbose already installed skipping grunt-autoprefixer@^2.0.0 D:\workspacefriendstrip\friendstrip
+19 verbose already installed skipping grunt-concurrent@^1.0.0 D:\workspacefriendstrip\friendstrip
+20 verbose already installed skipping grunt-contrib-clean@^0.6.0 D:\workspacefriendstrip\friendstrip
+21 verbose already installed skipping grunt-contrib-concat@^0.5.0 D:\workspacefriendstrip\friendstrip
+22 verbose already installed skipping grunt-contrib-connect@^0.9.0 D:\workspacefriendstrip\friendstrip
+23 verbose already installed skipping grunt-contrib-copy@^0.7.0 D:\workspacefriendstrip\friendstrip
+24 verbose already installed skipping grunt-contrib-cssmin@^0.10.0 D:\workspacefriendstrip\friendstrip
+25 verbose already installed skipping grunt-contrib-htmlmin@^0.3.0 D:\workspacefriendstrip\friendstrip
+26 verbose already installed skipping grunt-contrib-imagemin@^0.9.2 D:\workspacefriendstrip\friendstrip
+27 verbose already installed skipping grunt-contrib-jshint@^0.10.0 D:\workspacefriendstrip\friendstrip
+28 verbose already installed skipping grunt-contrib-uglify@^0.6.0 D:\workspacefriendstrip\friendstrip
+29 verbose already installed skipping grunt-contrib-watch@^0.6.1 D:\workspacefriendstrip\friendstrip
+30 verbose already installed skipping grunt-file-creator@^0.1.2 D:\workspacefriendstrip\friendstrip
+31 verbose already installed skipping grunt-filerev@^2.1.2 D:\workspacefriendstrip\friendstrip
+32 verbose already installed skipping grunt-google-cdn@^0.4.3 D:\workspacefriendstrip\friendstrip
+33 verbose already installed skipping grunt-karma@* D:\workspacefriendstrip\friendstrip
+34 verbose already installed skipping grunt-mkdir@^0.1.2 D:\workspacefriendstrip\friendstrip
+35 verbose already installed skipping grunt-newer@^0.8.0 D:\workspacefriendstrip\friendstrip
+36 verbose already installed skipping grunt-ng-annotate@^0.9.2 D:\workspacefriendstrip\friendstrip
+37 verbose already installed skipping grunt-shell@^1.1.1 D:\workspacefriendstrip\friendstrip
+38 verbose already installed skipping grunt-svgmin@^2.0.0 D:\workspacefriendstrip\friendstrip
+39 silly install resolved []
+40 info build D:\workspacefriendstrip\friendstrip
+41 verbose linkStuff [ false, false, false, 'D:\\workspacefriendstrip' ]
+42 info linkStuff friendstrip@0.0.0
+43 verbose linkBins friendstrip@0.0.0
+44 verbose linkMans friendstrip@0.0.0
+45 verbose rebuildBundles friendstrip@0.0.0
+46 verbose rebuildBundles [ '.bin',
+46 verbose rebuildBundles   'bash',
+46 verbose rebuildBundles   'bower',
+46 verbose rebuildBundles   'grunt',
+46 verbose rebuildBundles   'grunt-autoprefixer',
+46 verbose rebuildBundles   'grunt-cli',
+46 verbose rebuildBundles   'grunt-concurrent',
+46 verbose rebuildBundles   'grunt-contrib-clean',
+46 verbose rebuildBundles   'grunt-contrib-concat',
+46 verbose rebuildBundles   'grunt-contrib-connect',
+46 verbose rebuildBundles   'grunt-contrib-copy',
+46 verbose rebuildBundles   'grunt-contrib-cssmin',
+46 verbose rebuildBundles   'grunt-contrib-htmlmin',
+46 verbose rebuildBundles   'grunt-contrib-imagemin',
+46 verbose rebuildBundles   'grunt-contrib-jshint',
+46 verbose rebuildBundles   'grunt-contrib-uglify',
+46 verbose rebuildBundles   'grunt-contrib-watch',
+46 verbose rebuildBundles   'grunt-file-creator',
+46 verbose rebuildBundles   'grunt-filerev',
+46 verbose rebuildBundles   'grunt-google-cdn',
+46 verbose rebuildBundles   'grunt-karma',
+46 verbose rebuildBundles   'grunt-mkdir',
+46 verbose rebuildBundles   'grunt-newer',
+46 verbose rebuildBundles   'grunt-ng-annotate',
+46 verbose rebuildBundles   'grunt-shell',
+46 verbose rebuildBundles   'grunt-svgmin',
+46 verbose rebuildBundles   'grunt-usemin',
+46 verbose rebuildBundles   'grunt-wiredep',
+46 verbose rebuildBundles   'jasmine-core',
+46 verbose rebuildBundles   'jshint-stylish',
+46 verbose rebuildBundles   'karma',
+46 verbose rebuildBundles   'karma-jasmine',
+46 verbose rebuildBundles   'karma-phantomjs-launcher',
+46 verbose rebuildBundles   'load-grunt-tasks',
+46 verbose rebuildBundles   'phantomjs',
+46 verbose rebuildBundles   'time-grunt' ]
+47 verbose rebuild bundle D:\workspacefriendstrip\friendstrip\node_modules\bash
+48 info build D:\workspacefriendstrip\friendstrip\node_modules\bash
+49 info preinstall bash@0.0.1
+50 verbose linkStuff [ false,
+50 verbose linkStuff   false,
+50 verbose linkStuff   false,
+50 verbose linkStuff   'D:\\workspacefriendstrip\\friendstrip\\node_modules' ]
+51 info linkStuff bash@0.0.1
+52 verbose linkBins bash@0.0.1
+53 verbose linkMans bash@0.0.1
+54 verbose rebuildBundles bash@0.0.1
+55 info install bash@0.0.1
+56 info postinstall bash@0.0.1
+57 verbose rebuild bundle D:\workspacefriendstrip\friendstrip\node_modules\grunt-cli
+58 info build D:\workspacefriendstrip\friendstrip\node_modules\grunt-cli
+59 info preinstall grunt-cli@0.1.13
+60 verbose linkStuff [ false,
+60 verbose linkStuff   false,
+60 verbose linkStuff   false,
+60 verbose linkStuff   'D:\\workspacefriendstrip\\friendstrip\\node_modules' ]
+61 info linkStuff grunt-cli@0.1.13
+62 warn prefer global grunt-cli@0.1.13 should be installed with -g
+63 verbose linkBins grunt-cli@0.1.13
+64 verbose link bins [ { grunt: 'bin/grunt' },
+64 verbose link bins   'D:\\workspacefriendstrip\\friendstrip\\node_modules\\.bin',
+64 verbose link bins   false ]
+65 verbose linkMans grunt-cli@0.1.13
+66 verbose rebuildBundles grunt-cli@0.1.13
+67 verbose rebuildBundles [ '.bin', 'findup-sync', 'nopt', 'resolve' ]
+68 info install grunt-cli@0.1.13
+69 info postinstall grunt-cli@0.1.13
+70 verbose rebuild bundle D:\workspacefriendstrip\friendstrip\node_modules\jasmine-core
+71 info build D:\workspacefriendstrip\friendstrip\node_modules\jasmine-core
+72 info preinstall jasmine-core@2.3.4
+73 verbose linkStuff [ false,
+73 verbose linkStuff   false,
+73 verbose linkStuff   false,
+73 verbose linkStuff   'D:\\workspacefriendstrip\\friendstrip\\node_modules' ]
+74 info linkStuff jasmine-core@2.3.4
+75 verbose linkBins jasmine-core@2.3.4
+76 verbose linkMans jasmine-core@2.3.4
+77 verbose rebuildBundles jasmine-core@2.3.4
+78 info install jasmine-core@2.3.4
+79 info postinstall jasmine-core@2.3.4
+80 verbose rebuild bundle D:\workspacefriendstrip\friendstrip\node_modules\karma
+81 info build D:\workspacefriendstrip\friendstrip\node_modules\karma
+82 info preinstall karma@0.12.36
+83 verbose linkStuff [ false,
+83 verbose linkStuff   false,
+83 verbose linkStuff   false,
+83 verbose linkStuff   'D:\\workspacefriendstrip\\friendstrip\\node_modules' ]
+84 info linkStuff karma@0.12.36
+85 verbose linkBins karma@0.12.36
+86 verbose link bins [ { karma: './bin/karma' },
+86 verbose link bins   'D:\\workspacefriendstrip\\friendstrip\\node_modules\\.bin',
+86 verbose link bins   false ]
+87 verbose linkMans karma@0.12.36
+88 verbose rebuildBundles karma@0.12.36
+89 verbose rebuildBundles [ '.bin',
+89 verbose rebuildBundles   'chokidar',
+89 verbose rebuildBundles   'colors',
+89 verbose rebuildBundles   'connect',
+89 verbose rebuildBundles   'di',
+89 verbose rebuildBundles   'glob',
+89 verbose rebuildBundles   'graceful-fs',
+89 verbose rebuildBundles   'http-proxy',
+89 verbose rebuildBundles   'lodash',
+89 verbose rebuildBundles   'log4js',
+89 verbose rebuildBundles   'mime',
+89 verbose rebuildBundles   'minimatch',
+89 verbose rebuildBundles   'optimist',
+89 verbose rebuildBundles   'q',
+89 verbose rebuildBundles   'rimraf',
+89 verbose rebuildBundles   'socket.io',
+89 verbose rebuildBundles   'source-map',
+89 verbose rebuildBundles   'useragent' ]
+90 info install karma@0.12.36
+91 info postinstall karma@0.12.36
+92 verbose rebuild bundle D:\workspacefriendstrip\friendstrip\node_modules\phantomjs
+93 info build D:\workspacefriendstrip\friendstrip\node_modules\phantomjs
+94 info preinstall phantomjs@1.9.17
+95 verbose linkStuff [ false,
+95 verbose linkStuff   false,
+95 verbose linkStuff   false,
+95 verbose linkStuff   'D:\\workspacefriendstrip\\friendstrip\\node_modules' ]
+96 info linkStuff phantomjs@1.9.17
+97 verbose linkBins phantomjs@1.9.17
+98 verbose link bins [ { phantomjs: './bin/phantomjs' },
+98 verbose link bins   'D:\\workspacefriendstrip\\friendstrip\\node_modules\\.bin',
+98 verbose link bins   false ]
+99 verbose linkMans phantomjs@1.9.17
+100 verbose rebuildBundles phantomjs@1.9.17
+101 verbose rebuildBundles [ '.bin',
+101 verbose rebuildBundles   'adm-zip',
+101 verbose rebuildBundles   'fs-extra',
+101 verbose rebuildBundles   'kew',
+101 verbose rebuildBundles   'npmconf',
+101 verbose rebuildBundles   'progress',
+101 verbose rebuildBundles   'request',
+101 verbose rebuildBundles   'request-progress',
+101 verbose rebuildBundles   'which' ]
+102 info install phantomjs@1.9.17
+103 verbose unsafe-perm in lifecycle true
+104 info postinstall phantomjs@1.9.17
+105 info install friendstrip@0.0.0
+106 info postinstall friendstrip@0.0.0
+107 verbose unsafe-perm in lifecycle true
+108 info friendstrip@0.0.0 Failed to exec postinstall script
+109 verbose stack Error: friendstrip@0.0.0 postinstall: `bash ./post_install.sh`
+109 verbose stack Exit status 1
+109 verbose stack     at EventEmitter.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\lifecycle.js:213:16)
+109 verbose stack     at EventEmitter.emit (events.js:110:17)
+109 verbose stack     at ChildProcess.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\spawn.js:14:12)
+109 verbose stack     at ChildProcess.emit (events.js:110:17)
+109 verbose stack     at maybeClose (child_process.js:1015:16)
+109 verbose stack     at Process.ChildProcess._handle.onexit (child_process.js:1087:5)
+110 verbose pkgid friendstrip@0.0.0
+111 verbose cwd D:\workspacefriendstrip\friendstrip
+112 error Windows_NT 6.3.9600
+113 error argv "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+114 error node v0.12.2
+115 error npm  v2.7.4
+116 error code ELIFECYCLE
+117 error friendstrip@0.0.0 postinstall: `bash ./post_install.sh`
+117 error Exit status 1
+118 error Failed at the friendstrip@0.0.0 postinstall script 'bash ./post_install.sh'.
+118 error This is most likely a problem with the friendstrip package,
+118 error not with npm itself.
+118 error Tell the author that this fails on your system:
+118 error     bash ./post_install.sh
+118 error You can get their info via:
+118 error     npm owner ls friendstrip
+118 error There is likely additional logging output above.
+119 verbose exit [ 1, true ]
