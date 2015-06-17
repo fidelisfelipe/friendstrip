@@ -43,7 +43,6 @@
   },
   "scripts": {
     "test": "grunt test",
-    "start": "grunt serve",
-	"postinstall": "bash ./post_install.sh"
+    "start": "grunt serve"
   }
 }
