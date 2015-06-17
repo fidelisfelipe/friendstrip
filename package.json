@@ -31,7 +31,7 @@
     "grunt-shell": "^1.1.1",
     "grunt-svgmin": "^2.0.0",
     "grunt-usemin": "^2.6.2",
-    "grunt-wiredep": "^2.0.0",
+    "grunt-wiredep": "^2.2.2",
     "jshint-stylish": "^1.0.0",
     "karma-jasmine": "*",
     "karma-phantomjs-launcher": "*",
